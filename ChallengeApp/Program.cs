@@ -56,7 +56,7 @@ foreach (char letter in letters)
         counter9++;
     }
 
-}
+}  
 Console.WriteLine("0 => " + counter0);
 Console.WriteLine("1 => " + counter1);
 Console.WriteLine("2 => " + counter2);
