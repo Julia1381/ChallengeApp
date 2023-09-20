@@ -1,4 +1,4 @@
-﻿int number = 736890;
+﻿class User
 string numberInstring = number.ToString();
 char[] letters = numberInstring.ToArray();
 
