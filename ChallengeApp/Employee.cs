@@ -1,4 +1,4 @@
-﻿namespace Employee
+﻿namespace ChallengeApp
 {
     public class Employee
     {
@@ -9,15 +9,15 @@
         {
             get
             {
-                return score.sum();
+                return score.Sum();
             }
         }
         List<int> score = new List<int>();
-        public Employee(string name, string surname, int age);
+        public Employee(string name, string surname, int age)
         {
-            this.name = name;
-            this.surname = surname;
-            this.age = age;
+            this.Name = name;
+            this.Surname = surname;
+            this.Age = age;
 
         }
         public void AddScore(int points)
